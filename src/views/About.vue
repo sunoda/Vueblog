@@ -40,14 +40,8 @@
       </div>
       <span class="area_title">Language</span>
       <div class="lang">
-        <div>
-          <div class="type eng">545</div>
-          <span>TOEIC</span>
-        </div>
-        <div>
-          <div class="type jp">N3</div>
-          <span>JLPT</span>
-        </div>
+        <div class="type eng">545</div>
+        <div class="type jp">N3</div>
       </div>
       <span class="area_title">SKILLS</span>
       <div class="skill">

@@ -9,20 +9,19 @@ import Register from "@/views/Register.vue";
 import Admin from "@/views/Admin.vue";
 import AdminHome from "@/views/Admin/AdminHome.vue";
 import Add from "@/views/Admin/Add.vue";
-import Todolist from "@/views/Todolist.vue"
 import NotFound404 from "@/views/NotFound404.vue";
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "About",
-    component: About
-  },
-  {
-    path: "/article",
     name: "Home",
     component: Home
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About
   },
   {
     path: "/article/:id",
@@ -42,7 +41,7 @@ const routes = [
   {
     path: "/register",
     name: "Register",
-    component: Register
+    componet: Register
   },
   {
     path: "/admin0310",
@@ -67,31 +66,12 @@ const routes = [
     ]
   },
   {
-    path: "/todolist",
-    name: Todolist,
-    component: Todolist,
-    children: [
-      {
-        path: "all",
-        name: "All",
-      },
-      {
-        path: "active",
-        name: "Active",
-      },
-      {
-        path: "complete",
-        name: "Complete",
-      }
-    ]
-  },
-  {
     path: "*",
     name: "NotFound404",
     component: NotFound404
   }
 ];
- 
+
 const router = new VueRouter({
   routes
 });
