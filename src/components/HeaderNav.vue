@@ -8,9 +8,10 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-form>
             <b-navbar-nav>
-              <b-nav-item to="/">Article</b-nav-item>
-              <b-nav-item to="/about">About</b-nav-item>
+              <b-nav-item to="/article">Article</b-nav-item>
+              <b-nav-item to="/">About</b-nav-item>
               <b-nav-item to="/portfolio">Portfolio</b-nav-item>
+              <b-nav-item to="/todolist">todoList</b-nav-item>
               <b-nav-item to="/login">Login</b-nav-item>
             </b-navbar-nav>
             <b-form-input
